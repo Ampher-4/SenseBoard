@@ -15,10 +15,11 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://Ampher-4.github.io',
+  url: 'https://ampher-4.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/SenseBoard/',
+  trailingSlash: false,
 
 
   // GitHub pages deployment config.
@@ -77,7 +78,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Knowledge Base "SenseBoard"',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -87,17 +88,18 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documents',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Articles', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Ampher-4',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
-    footer: {
+    footer: undefined,
+    /*{
       style: 'dark',
       links: [
         {
@@ -141,7 +143,7 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
+    },*/
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

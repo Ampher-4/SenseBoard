@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksense_board=globalThis.webpackChunksense_board||[]).push([[6159],{7667(e){e.exports=JSON.parse('{"metadata":{"permalink":"/SenseBoard/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

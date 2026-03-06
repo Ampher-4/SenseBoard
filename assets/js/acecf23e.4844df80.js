@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksense_board=globalThis.webpackChunksense_board||[]).push([[1903],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/SenseBoard/blog","blogTitle":"Blog","authorsListPath":"/SenseBoard/blog/authors"}')}}]);
